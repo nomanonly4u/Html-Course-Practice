@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+  </head>
+  <body>
+    <table>
+      <caption>
+        My Html Table
+      </caption>
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>age</th>
+          <th>qualification</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Noman</td>
+          <td>26</td>
+          <td>bscs</td>
+        </tr>
+        <tr>
+          <td>zain</td>
+          <td>20</td>
+          <td>bsce</td>
+        </tr>
+        <tr>
+          <td>iqu</td>
+          <td>25</td>
+          <td>bscd</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>footer</td>
+          <td>footer</td>
+          <td>footer</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br>
+
+
+    <!-- we can make table without thead tbody and tfoot  -->
+    <table>
+      <caption>
+        My Html Table 2
+      </caption>
+
+      <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>qualification</th>
+      </tr>
+
+      <tr>
+        <td>Noman</td>
+        <td>26</td>
+        <td>bscs</td>
+      </tr>
+      <tr>
+        <td>zain</td>
+        <td>20</td>
+        <td>bsce</td>
+      </tr>
+      <tr>
+        <td>iqu</td>
+        <td>25</td>
+        <td>bscd</td>
+      </tr>
+
+      <tr>
+        <td>footer</td>
+        <td>footer</td>
+        <td>footer</td>
+      </tr>
+    </table>
+
+
+    <br>
+    <table style="border: 2px solid ;">
+        <caption>My Html Table 3</caption>
+        
+            <tr>
+                <th>name</th>
+                <th>age</th>  
+                <th>qualification</th>
+                <th>color</th>
+                <th>location</th>
+            </tr>
+      
+       
+            <tr>
+                <td>Noman</td>
+                <td>26</td>
+                <td colspan="3" style="border: 1px solid black;">bscs</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="3" style="border: 1px solid black;">zain</td>
+                <td>20</td>
+                <td colspan="3" style="border: 1px solid black;"">bsce</td>
+            </tr>
+            <tr>
+                <td>iqu</td>
+                <td>25</td>
+                <td colspan="2" style="border: 1px solid black;"">bscd</td>
+            </tr>
+       
+       
+            <tr>
+                <td>footer</td>
+                <td>footer</td>
+                <td style="border: 1px solid black;"">footer</td>
+                <td style="border: 1px solid black;"">footer</td>
+
+            </tr>
+       
+
+    </table>
+  </body>
+</html>
