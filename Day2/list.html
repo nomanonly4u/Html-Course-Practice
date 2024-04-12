@@ -1,11 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lists</title>
-</head>
-<body>
+    <style>
+      ul.one {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+      }
+
+      ul.one li {
+        float: left;
+      }
+      ul.one li a {
+        color: black;
+        padding: 5px;
+        margin: 10px;
+        background-color: aquamarine;
+        display: block;
+        text-decoration: none;
+      }
+
+      ul.one li a:hover {
+        background-color: blue;
+        color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- unordered lists -->
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+    </ul>
+    <br />
+
+    <!-- list styke tyoe -->
+    <ul style="list-style-type: circle">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+    </ul>
+    <br />
+
+    <!-- nested lists -->
+    <ul>
+      <li>Coffee</li>
+      <li>
+        Tea
+        <ul>
+          <li>Black tea</li>
+          <li>Green tea</li>
+        </ul>
+      </li>
+      <li>Milk</li>
+    </ul>
+
+    <br />
+
+    <!-- horizontal list menu -->
+    <ul class="one">
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Contact</a></li>
+      <li><a href="">Blog</a></li>
+    </ul>
+<br>
+    <hr />
+
+    <!-- ordered List -->
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ol>
+
+
+<!-- list type -->
+    <ol type="A">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ol>
+
+    <!-- list start counter -->
+    <ol start="10">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ol>
+
+    <!-- Nested list -->
+    <ol>
+        <li>Coffee</li>
+        <li>Tea
+          <ol>
+            <li>Black tea</li>
+            <li>Green tea</li>
+          </ol>
+        </li>
+        <li>Milk</li>
+      </ol>
+
+
+
+
+
+
+
     
-</body>
+  </body>
 </html>
